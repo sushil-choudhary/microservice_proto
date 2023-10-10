@@ -1,4 +1,4 @@
-syntax = "customerProto";
+syntax = "proto3";
 
 package customer;
 
