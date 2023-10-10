@@ -5,6 +5,7 @@ package customer;
 service CustomerService {
     rpc Register (RegisterRequest) returns (RegisterResponse) {}
     rpc Login (LoginRequest) returns (LoginResponse) {}
+    rpc Update (LoginRequest) returns (PasswordResetResponse) {}
     rpc Validate (ValidateRequest) returns (ValidateResponse) {}
 }
 
