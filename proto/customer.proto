@@ -43,14 +43,13 @@ message LoginResponse {
 // Update Password
 message PasswordResetRequest {
   string email = 1;
-  string newPassword = 2;
+  string currentPassword = 2;
+  string newPassword = 3;
 }
 
 message PasswordResetResponse {
   int32 status = 1;
   repeated string error = 2;
-  string email = 3;
-  string newPassword = 4;
 }
 
 
